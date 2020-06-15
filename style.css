@@ -1,0 +1,81 @@
+body,html{margin: 0px; padding: 0px;height: auto;font-family: 'Artifika';}
+
+body{
+    background-image: url(party.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center center;
+    background-attachment: fixed;
+    display: flex;
+    animation-name: animate;
+    animation-direction: alternate-reverse;
+    animation-duration: 30s;
+    animation-fill-mode:forwards;
+    animation-iteration-count:infinite ;
+    animation-play-state:running ;
+    animation-timing-function:ease-in-out ;
+    
+}
+@keyframes animate{
+    0%{
+        background-image: url(bg5.jpg);
+    }
+    20%{
+        background-image: url(bg4.jpg);
+    }
+    40%{
+        background-image: url(bg3.jpg);
+    }
+    60%{
+        background-image: url(bg2.jpg);
+    }
+    80%{
+        background-image: url(bg1.jpg);
+    }
+    
+}
+.container{
+    
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    color: white;
+    transition: 5s;
+
+   
+}
+
+
+.container h1{
+    text-transform: uppercase;
+    font-size: 50px;
+    margin: 20px;
+    letter-spacing: 5px;
+}
+.container h3{
+    text-transform: uppercase;
+    font-size: 50px;
+    margin: 20px;
+    letter-spacing: 5px;
+}
+#count{
+    margin: 40px 0;
+}
+.countd{
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    border: 2px solid;
+    margin: 0 30px;
+    font-size: 12px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.countd span{
+    display: block;
+    font-size: 26px;
+    margin-top: 14px;
+}
