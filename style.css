@@ -18,19 +18,19 @@ body{
 }
 @keyframes animate{
     0%{
-        background-image: url(bg5.JPG);
+        background-image: url(https://sanjogsamuelsamantaray.github.io/arpan_countdown.github.io/bg5.JPG);
     }
     20%{
-        background-image: url(bg4.JPG);
+        background-image: url(https://sanjogsamuelsamantaray.github.io/arpan_countdown.github.io/bg4.JPG);
     }
     40%{
-        background-image: url(bg3.JPG);
+        background-image: url(https://sanjogsamuelsamantaray.github.io/arpan_countdown.github.io/bg3.JPG);
     }
     60%{
-        background-image: url(/bg2.jpg);
+        background-image: url(https://sanjogsamuelsamantaray.github.io/arpan_countdown.github.io/bg2.jpg);
     }
     80%{
-        background-image: url(bg1.JPG);
+        background-image: url(https://sanjogsamuelsamantaray.github.io/arpan_countdown.github.io/bg1.JPG);
     }
     
 }
